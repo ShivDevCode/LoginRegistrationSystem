@@ -181,7 +181,6 @@ include('errors.php');
         },
         dataType: 'html',
         success: function(data) {
-          console.log(data);
           $("#state").html(data);
         }
       });
@@ -197,7 +196,6 @@ include('errors.php');
         },
         dataType: 'html',
         success: function(data) {
-          console.log(data);
           $("#city").html(data);
         }
       });
